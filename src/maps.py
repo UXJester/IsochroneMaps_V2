@@ -85,7 +85,6 @@ import re
 import json
 from pathlib import Path
 import argparse
-import warnings
 
 
 # Add the project root to the Python path before other project imports
@@ -120,8 +119,6 @@ from src.utils.error_utils import (
 
 from src.config import CSS, JS, MAPS, DATA, TABLES, MAP_SETTINGS
 
-# Suppress the deprecation warning for cgi module used by htmlmin
-warnings.filterwarnings("ignore", category=DeprecationWarning, module="htmlmin.main")
 
 # Configure logging with structured logging
 setup_structured_logging(log_file="maps.log")

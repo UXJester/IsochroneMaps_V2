@@ -1,13 +1,10 @@
 import unittest
-from unittest.mock import patch, MagicMock, mock_open
+from unittest.mock import patch, mock_open
 import os
 import sys
 import pandas as pd
-import json
-from pathlib import Path
 import folium
 from src.maps import create_map
-from src.utils.error_utils import DataAccessError, GeoJSONError
 
 # Add the project root to path to allow importing from src
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
