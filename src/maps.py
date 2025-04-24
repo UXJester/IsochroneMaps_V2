@@ -86,6 +86,7 @@ import json
 from pathlib import Path
 import argparse
 
+
 # Add the project root to the Python path before other project imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -117,6 +118,7 @@ from src.utils.error_utils import (
 
 
 from src.config import CSS, JS, MAPS, DATA, TABLES, MAP_SETTINGS
+
 
 # Configure logging with structured logging
 setup_structured_logging(log_file="maps.log")
