@@ -1,0 +1,38 @@
+# Python-related
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg
+*.egg-info
+.pytest_cache
+dist
+build
+logs
+*.log
+
+# Environment variables
+.env
+
+# Data Mocks
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode
+.idea
+*.swp
+*.swo
+
+# Certificates
+certs
+
+# TODO
+TODO.md

@@ -1,0 +1,15 @@
+certifi==2025.1.31
+csscompressor==0.9.5
+Flask==3.1.0
+flask_cors==5.0.1
+folium==0.19.5
+geopy==2.4.1
+htmlmin==0.1.12
+Jinja2==3.1.6
+jsmin==3.0.1
+openrouteservice==2.3.3
+pandas==2.2.3
+python-dotenv==1.1.0
+Requests==2.32.3
+Shapely==2.1.0
+supabase==2.15.0
