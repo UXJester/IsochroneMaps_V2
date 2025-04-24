@@ -54,8 +54,8 @@ IsochroneMapsV2/
 1. Clone the repository
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 3. Install dependencies:
    ```bash
@@ -90,6 +90,12 @@ The project includes an interactive setup script that automates the environment 
 
    ```bash
    python setup_env.py --non-interactive
+   ```
+
+   _Note:_ Don't forget to `run`
+
+   ```bash
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
 4. Create a `.env` file with required API keys as described above
