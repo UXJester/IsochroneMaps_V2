@@ -18,7 +18,6 @@ from src.isochrone import (
     main,
 )
 from src.utils.error_utils import (
-    DataAccessError,
     DataValidationError,
     APIConnectionError,
     DataProcessingError,
@@ -152,7 +151,6 @@ class TestIsochrone(unittest.TestCase):
 
         with patch("pathlib.Path.exists", return_value=True):
             centers_df, coords_list = load_center_data(mode="use-local")
-
             self.assertEqual(len(centers_df), 2)
             self.assertEqual(coords_list[0], [-122.4194, 37.7749])
             self.assertEqual(coords_list[1], [-74.006, 40.7128])
