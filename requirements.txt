@@ -9,6 +9,7 @@ Jinja2==3.1.6
 jsmin==3.0.1
 openrouteservice==2.3.3
 pandas==2.2.3
+pytest==8.3.5
 python-dotenv==1.1.0
 Requests==2.32.3
 Shapely==2.1.0
